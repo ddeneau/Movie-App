@@ -3,6 +3,7 @@ import {ImageBackground, Platform, StyleSheet, TextInput, Button, TouchableNativ
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import StartScreen  from './app/StartScreen.js';
+import HomeScreen from './app/HomeScreen.js';
 
 const stack = createStackNavigator();
 
@@ -12,6 +13,9 @@ function App() {
             <stack.Navigator>
                 <stack.Screen name={"Start"}
                               component={StartScreen}
+                />
+                <stack.Screen name={"Home"}
+                              component={HomeScreen}
                 />
             </stack.Navigator>
         </NavigationContainer>        
