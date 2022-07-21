@@ -1,12 +1,11 @@
 
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, SafeAreaView } from 'react-native';
+import AppStackNavigator from './src/routes/NavBar';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello, world!</Text>
-    </View>
+   <AppStackNavigator/>
   )
 }
 
