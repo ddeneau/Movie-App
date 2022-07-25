@@ -7,6 +7,7 @@ import SignIn from './src/screens/SignIn';
 const App = () => {
   return (
       <SafeAreaView>
+        <Text>Hello World!</Text>
         <NavigationContainer>{
           <Stack.Navigator>
             <Stack.Screen name='Home' component={Home} />
