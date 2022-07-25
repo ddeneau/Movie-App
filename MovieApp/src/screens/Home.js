@@ -1,4 +1,4 @@
-import react, {component} from 'react'
+import {component} from 'react'
 import { SafeAreaView } from 'react-native'
 import { Button } from 'react-native-web';
 
