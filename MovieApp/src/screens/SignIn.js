@@ -1,11 +1,8 @@
-import {component} from 'react'
 import { SafeAreaView } from 'react-native'
 import { Button, TextInput } from 'react-native-web';
 
-
-class SignIn extends component {
-    render() {
-        return (
+const SignIn = () => {
+    return (
             <SafeAreaView>
                 <Text>Home Screen</Text>
                 <TextInput>User</TextInput>
@@ -15,6 +12,5 @@ class SignIn extends component {
             </SafeAreaView>
         );
     }
-}
 
 export default SignIn
